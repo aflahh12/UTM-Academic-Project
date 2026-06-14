@@ -34,7 +34,7 @@ Here are courses from Year 1 until Year 3 of University: </p>
 - SECP3223 Data Analytics Programming
 - SECR2043 Operating System
 - UHLB2122 Professional Communication Skills 1
-- ULRS Philosophy & Current Issues
+- ULRS1022 Philosophy & Current Issues
 
 ---
 
