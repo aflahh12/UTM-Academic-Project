@@ -1,4 +1,5 @@
-# Year 1🌼
+Here are projects that I've done from Semester 1 to Semester 2: </p>
+# Year 1
 ### These are the core subjects for semester 1
 - SECI1013 Discrete Structure
 - SECJ1013 Programming Technique I
