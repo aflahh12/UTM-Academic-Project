@@ -1,1 +1,1 @@
-
+[Industry Visit to PPG](https://www.linkedin.com/posts/aflah-boo-273b37299_industrialvisit-dataengineering-careerexposure-activity-7447610843459948544-tlsC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEg_t7cBM8BHZyUhs1MRuffhKkmxtAfJl1M)
