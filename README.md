@@ -33,8 +33,6 @@ Here are courses from Year 1 until Year 3 of University: </p>
 - SECP2753 Data Mining
 - SECP3223 Data Analytics Programming
 - SECR2043 Operating System
-- UHLB2122 Professional Communication Skills 1
-- ULRS1022 Philosophy & Current Issues
 
 ---
 
@@ -44,12 +42,9 @@ Here are courses from Year 1 until Year 3 of University: </p>
 - SECJ3553 Artificial Intelligence
 - SECP3623 Database Programming
 - SECP3744 Enterprise System Design & Modelling (WBL)
-- UHLB3132 Professional Communication Skills 2
-- UHLC1112 Mandarin Language
   
 ### Semester 2
 - SECP3106 Application Development
 - SECP3133 High Performance Data Processing
 - SECP3213 Business Intelligence
 - SECP3843 Special Topic in Data Engineering
-- ULRS3032 Entrepreneurship & Innovation
