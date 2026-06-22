@@ -1,0 +1,108 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+const int size = 5;
+
+class Node {
+	public:
+		char data;
+		Node *next;
+		
+		Node(char c){
+			data = c;
+			next = NULL;
+		}
+		
+		~Node() {
+			cout << "Destroy node " << data << "\n";
+		}
+};
+
+// Stack class (array)
+class Stack {
+    private:
+        Node *top;
+
+    public:
+        void createStack() {
+        	top = NULL;
+        }
+
+        void push(char c) {
+			Node *nn = new Node(c);
+			if(this->isEmpty()) {
+				top = nn;
+			} else {
+				nn->next = top;
+				top = nn;
+			}
+			
+        }
+
+        void pop() {
+			if (this->isEmpty()) {
+				cout << "Can't pop item. Stack is empty.\n";
+			} else {
+				Node *temp = top;
+				top = top->next;
+				delete temp;
+			}
+        }
+
+        char stackTop() {
+            if (this->isEmpty()) {
+            	cout << "Can't get pop item. Stack is empty.\n";
+//            	retrun ' ';
+			} else {
+				return top->data;
+			}
+        }
+
+        bool isEmpty() { return (top == NULL); }
+        
+        // not implement this method
+        //bool isFull() {  }
+};
+
+// Main function section
+int main() {
+    Stack myStack;
+
+    myStack.createStack();
+
+    cout << myStack.stackTop() << "\n";
+    myStack.pop();
+
+    myStack.push('A');
+    myStack.push('B');
+    myStack.push('C');
+    myStack.push('D');
+    myStack.push('E');
+    myStack.push('F');
+
+    while (!myStack.isEmpty())
+    {
+        cout << "Popping: " << myStack.stackTop() << "\n";
+        myStack.pop();
+    }
+    
+    string word = "HELLO";
+    
+    for (int i = 0; i < 5; i++){
+    	cout << word[i] << "\n";
+		myStack.push(word[i]);	
+	}
+	
+	int idx = 0;
+	while (!myStack.isEmpty()) {
+		word[idx] = myStack.stackTop();
+		myStack.pop();
+		idx++;
+	}
+	
+	cout << word << "\n";
+
+    return 0;
+}
