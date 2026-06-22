@@ -1,5 +1,5 @@
 # Year 2
-###These are the core subjects for Semester 1
+### These are the core subjects for Semester 1
 - SECJ2013 Data Structure & Algorithm
 - SECP2523 Database (WBL)
 - SECP3204 Software Engineering (WBL)
