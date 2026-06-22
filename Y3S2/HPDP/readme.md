@@ -9,7 +9,7 @@ This course covers advanced techniques and technologies for processing large-sca
 |---|---------------|--------------|
 | 1 | Assignment 1 - Academic Writing (Data-Centric AI Systems) | [Link to project file](https://github.com/aflahh12/UTM-Academic-Project/blob/c420cb12709d9b79cdd8756f6461b2c0843a14d8/Y3S2/HPDP/HPDP%20Assignment%201.pdf) |
 | 2 | Assignemnt 2: Mastering Big Data Handling | [Link to project file](https://github.com/drshahizan/HPDP/tree/main/2526/assignment/A2/bdm/nyamuk) |
-| 3 | Project 1: Optimizing High-Performance Data Processing for Large-Scale Web Crawlers | [Link to project file]((https://github.com/drshahizan/HPDP/tree/main/2526/project/p1/TripleA/p1)) |
+| 3 | Project 1: Optimizing High-Performance Data Processing for Large-Scale Web Crawlers | [Link to project file](https://github.com/drshahizan/HPDP/tree/main/2526/project/p1/TripleA/p1) |
 | 4 | Project 2: Real-Time Sentiment Analysis using Apache Spark and Kafka | [Link to project file](https://github.com/drshahizan/HPDP/tree/main/2526/project/p2/TripleA) |
 
 ## Reflection
